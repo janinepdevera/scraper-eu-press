@@ -1,0 +1,20 @@
+name: webscraper
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - seaborn
+  - tqdm
+  - bs4
+  - pip
+  - pip:
+    - selenium
+    - requests
+    - openpyxl
+    - striprtf
+
+    
